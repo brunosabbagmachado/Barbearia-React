@@ -6,6 +6,10 @@ import Barbearia from './pages/Barbearia';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
-root.render(<React.StrictMode><Barbearia /></React.StrictMode>);
+root.render(
+    <React.StrictMode>
+        <Barbearia />
+    </React.StrictMode>
+);
 
 
