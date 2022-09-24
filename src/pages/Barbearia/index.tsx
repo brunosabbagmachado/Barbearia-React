@@ -1,8 +1,12 @@
 import 'normalize.css'
-import Header from './Header';
+import Navbar from './Navbar';
+import Home from './Main/Home';
 
 export default function Barbearia() {
     return (
-        <Header />
+        <div>
+            <Navbar />
+            <Home />
+        </div>
     )
 }

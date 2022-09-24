@@ -1,0 +1,32 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.menu__img {
+    height: 80px;
+    padding: .3rem 3rem;
+}
+
+.menu__lista {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu__item {
+    margin-right: 1em;
+}
+
+.menu__item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    border-bottom: 2px solid rgb(200, 4, 4);
+    color: rgb(200, 4, 4);
+    padding-bottom: 0.2px;
+}
