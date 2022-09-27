@@ -1,9 +1,7 @@
 import 'normalize.css'
+import { Link } from 'react-router-dom';
 import styles from './Navbar.module.scss';
 import logo from 'assets/logo.png';
-import { Link } from 'react-router-dom';
-
-
 
 export default function Navbar() {
     return (
@@ -19,15 +17,12 @@ export default function Navbar() {
                     <Link to='/'>Home</Link>
                 </li>
                 <li className={styles.menu__item}>
-                    <Link to='/empresa'>Empresa</Link>
+                    <Link to='/contato'>Contato</Link>
                 </li>
                 <li className={styles.menu__item}>
-                    <Link to='/Contato'>Contato</Link>
+                    <Link to='empresa'>Empresa</Link>
                 </li>
             </ul>
-
-
         </nav>
-
     )
 }
