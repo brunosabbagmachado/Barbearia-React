@@ -5,21 +5,23 @@ import logo from 'assets/logo.png';
 
 export default function Navbar() {
     return (
-        <nav className={styles.menu}>
-            <img
-                className={styles.menu__img}
-                src={logo}
-                alt="Logo Barbearia React"
-            />
+        <nav className={styles.navbar}>
+            <Link to='/'>
+                <img
+                    className={styles.img}
+                    src={logo}
+                    alt="Logo Barbearia React"
+                />
+            </Link>
 
-            <ul className={styles.menu__lista}>
-                <li className={styles.menu__item}>
+            <ul className={styles.lista}>
+                <li className={styles.item}>
                     <Link to='/'>Home</Link>
                 </li>
-                <li className={styles.menu__item}>
+                <li className={styles.item}>
                     <Link to='/contato'>Contato</Link>
                 </li>
-                <li className={styles.menu__item}>
+                <li className={styles.item}>
                     <Link to='empresa'>Empresa</Link>
                 </li>
             </ul>
