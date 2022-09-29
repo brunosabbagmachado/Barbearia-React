@@ -19,10 +19,10 @@ export default function Navbar() {
                     <Link to='/'>Home</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='/contato'>Contato</Link>
+                    <Link to='produtos'>Produtos</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='empresa'>Empresa</Link>
+                    <Link to='/contato'>Contato</Link>
                 </li>
             </ul>
         </nav>

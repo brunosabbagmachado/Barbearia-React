@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from 'components/Navbar/Navbar';
-import Home from 'pages/Home/Home';
-import Contato from 'pages/Contato/Contato';
-import Empresa from 'pages/Empresa/Empresa';
-import Footer from 'components/Footer/Footes';
+import Navbar from 'components/Navbar';
+import Home from 'pages/Home';
+import Contato from 'pages/Contato';
+import Produtos from 'pages/Produtos';
+import Footer from 'components/Footer';
 
 export default function App() {
     return (
@@ -11,8 +11,8 @@ export default function App() {
             <Navbar />
             <Routes>
                 <Route path='/' element={<Home />} />
+                <Route path='/produtos' element={<Produtos />} />
                 <Route path='/contato' element={<Contato />} />
-                <Route path='/empresa' element={<Empresa />} />
             </Routes>
             <Footer />
         </Router>
