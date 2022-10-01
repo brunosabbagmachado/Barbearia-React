@@ -7,9 +7,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
-import banner1 from '../../assets/barber-banner.jpg';
-import banner2 from '../../assets/barber-banner2.jpg';
-import banner3 from '../../assets/barber-banner3.jpg';
+import banner1 from '../../assets/imgs/barber-banner.jpg';
+import banner2 from '../../assets/imgs/barber-banner2.jpg';
+import banner3 from '../../assets/imgs/barber-banner3.jpg';
 import styles from './BannerSwiper.module.scss';
 
 export default function BannerSwiper() {

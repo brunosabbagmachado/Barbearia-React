@@ -16,7 +16,7 @@ export default function Footer() {
                 </li>
             </ul>
             <p className={styles.copy_right}>
-                <span>Barbearia</span> &Copy; 2021
+                <span>Barbearia</span> &copy; 2021
             </p>
         </footer>
     )
