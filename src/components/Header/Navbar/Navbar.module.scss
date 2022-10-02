@@ -1,0 +1,48 @@
+@import '../../../styles/variaveis';
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: $bg-color;
+}
+
+.logo {
+    color: $branco;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.item {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+
+.item a {
+    color: $branco;
+    font-size: 20px;
+    font-weight: 500;  
+    text-transform: capitalize;
+}
+
+.item a:hover {
+    color: $escuro;
+    transition: .4s;
+}
+
+.botao__login {
+    background-color: $escuro;
+    color: $branco;
+    border: 2px solid transparent;
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.botao__login:hover{
+    transform: scale(1.2);
+}

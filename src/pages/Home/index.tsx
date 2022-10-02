@@ -1,10 +1,13 @@
 import styles from './Home.module.scss';
-import BannerSwiper from 'components/Swiper';
 
 export default function Home() {
     return (
-        <section>
-
+        <section className={styles.home}>
+            <div className={styles.conteudo}>
+                <h4>Bem vindo a</h4>
+                <h1>Barbearia</h1>
+                <h3>O melhor lugar para mudar seu visual</h3>
+            </div>
         </section>
     )
 }

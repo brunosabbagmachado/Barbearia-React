@@ -1,24 +1,33 @@
-.titulo_principal {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
+@import '../../styles/variaveis';
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../public/assets/imgs/hero-banner.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.principal {
-    padding: 3em 0;
-    width: 940px;
-    margin: 0 auto;
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
 }
 
-.principal p {
-    margin: 0 0 1em;
+.conteudo h1 {
+    color: $branco;
+    margin: 20px 0px 20px;
+    font-size: 75px;
 }
 
-.principal strong {
-    font-weight: bold;
+.conteudo h3{
+    color: $branco;
+    font-size: 25px;
 }
 
-.principal em {
-    font-style: italic;
+.conteudo h4 {
+    color: $branco;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
