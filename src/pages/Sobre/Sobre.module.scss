@@ -32,6 +32,28 @@
 }
 
 .texto p {
+    color: $branco;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
 
+.botao__produtos {
+    background-color: $escuro;
+    color: $branco;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 700;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.botao__produtos:hover {
+    background-color: transparent;
+    border: 2px solid $branco;
+    cursor: pointer;
 }
 
