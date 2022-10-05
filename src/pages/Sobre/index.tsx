@@ -16,7 +16,7 @@ export default function Sobre() {
                     </p>
                     
                     <button
-                        className={styles.botao__produtos}
+                        className={styles.botao}
                         type='button'>
                         <Link to='../produtos'>Produtos</Link>
                     </button>

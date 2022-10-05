@@ -1,33 +1,68 @@
+@import '../../styles/variaveis';
+
 .footer {
-    background-color: #7d7d7d;
-    color: white;
-    padding: 3em;
-    text-align: center;
-}
-
-.social_list{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-color: $fundo-escuro-components;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    list-style-type: none;
 }
 
-.social_list li {
-    margin: 0 1em;
+.nome {
+    font-size: 30px;
+    color: $branco;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
-.social_list li:hover{
-    color: #222;;
+.frase {
+    color: $branco;
+    font-size: 16px;
+    width: 300px;
+    text-align: center;
+    line-height: 25px;
 }
 
-.social_list svg {
-    font-size: 1.5em;
+.frase a {
+    color: $elementos-dourados;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $fundo-escuro-paginas;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: $branco;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    background: $elementos-dourados;
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.social svg {
+    font-size: 1.1em;
     cursor: pointer;
 }
 
 .copy_right {
-    margin-top: 2em;
+    position: absolute;
+    color: $branco;
+    bottom: 35px;
+    font-size: 14px;
 }
 
-.copy_right span {
-    font-weight: bold;
-}

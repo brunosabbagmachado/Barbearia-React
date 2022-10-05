@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <Link to='/'>
-                <h2 className={styles.logo}>Barbearia</h2>
+                <h2 className={styles.logo}>Barber<span>React</span></h2>
             </Link>
 
             <ul className={styles.lista}>

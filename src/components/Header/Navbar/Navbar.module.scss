@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    background-color: $bg-color;
+    background-color: $fundo-escuro-components;
 }
 
 .logo {
@@ -13,6 +13,10 @@
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 1px;
+}
+
+.logo span {
+    color: $elementos-dourados;
 }
 
 .item {
@@ -29,12 +33,12 @@
 }
 
 .item a:hover {
-    color: $escuro;
+    color: $elementos-dourados;
     transition: .4s;
 }
 
 .botao__login {
-    background-color: $escuro;
+    background-color: $elementos-dourados;
     color: $branco;
     border: 2px solid transparent;
     font-weight: 600;

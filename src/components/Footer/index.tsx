@@ -1,22 +1,28 @@
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+
 import styles from './Footer.module.scss';
 
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            <ul className={styles.social_list}>
+
+            <p className={styles.nome}>Bruno Sabbag Machado</p>
+            <p className={styles.frase}>Para mais projetos Front-end em React, HTML, CSS, JavaScript e TypeScript, clique <a href="https://github.com/brunosabbagmachado">aqui</a>.</p>
+
+            <ul className={styles.social}>
                 <li>
-                    <FaFacebook />
+                    <a href="https://github.com/brunosabbagmachado"><FaGithub /></a>
                 </li>
                 <li>
-                    <FaInstagram />
+                    <a href="https://www.linkedin.com/in/brunosabbagmachado/"><FaLinkedinIn /></a>
                 </li>
                 <li>
-                    <FaLinkedin />
+                    <a href="bsm.1997@hotmail.com"><AiOutlineMail /></a>
                 </li>
             </ul>
             <p className={styles.copy_right}>
-                <span>Barbearia</span> &copy; 2021
+                Barbearia &copy; 2021
             </p>
         </footer>
     )

@@ -21,7 +21,8 @@ select,
 button,
 textarea,
 ion-icon {
-  display: block;
+  text-decoration: none;
+  color: white;
 }
 
 a {

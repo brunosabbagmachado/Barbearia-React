@@ -1,8 +1,10 @@
+import styles from './Contato.module.scss';
+
 export default function Contato(){
     return(
-        <div>
-            <h1>Contato</h1>
-            <p>Conteudo da Contato</p>
-        </div>
+        <section className={styles.contato}>
+            <p>Vamos agendar sua transformação.</p>
+            <a href="#" className={styles.botao}>Agenda</a>
+        </section>
     )
 }
