@@ -24,7 +24,7 @@ export default function Navbar() {
                     <Link to='/contato'>Contato</Link>
                 </li>
             </ul>
-            <a href="#" className={styles.botao__login}>Login</a>
+            <a href="#" type='button' className={styles.botao__login}>Login</a>
         </nav>
     )
 }
