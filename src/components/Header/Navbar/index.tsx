@@ -5,7 +5,7 @@ import styles from './Navbar.module.scss';
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <Link to='/'>
+            <Link to=''>
                 <h2 className={styles.logo}>Barber<span>React</span></h2>
             </Link>
 
