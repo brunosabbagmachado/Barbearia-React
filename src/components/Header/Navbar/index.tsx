@@ -1,12 +1,13 @@
 import 'normalize.css'
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.scss';
+import { FaReact } from 'react-icons/fa';
 
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
             <Link to='/'>
-                <h2 className={styles.logo}>Barber<span>React</span></h2>
+                <h2 className={styles.logo}>Barber<span>React<FaReact/></span></h2>
             </Link>
 
             <ul className={styles.lista}>

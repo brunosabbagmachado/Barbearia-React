@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faUser, faBell } from '@fortawesome/free-regular-svg-icons';
+import { FaBars, FaRegUser, FaRegBell} from 'react-icons/fa';
 import styles from './Produtos.module.scss';
 
 export default function Produtos() {
@@ -13,7 +11,7 @@ export default function Produtos() {
 
             <div className={styles.box}>
                 <div className={styles.card}>
-                    <FontAwesomeIcon icon={faBars} className={styles.icone}/>
+                    <FaBars className={styles.icone}/>
                     <h5>Web Development</h5>
                     <div className={styles.descricao}>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -27,7 +25,7 @@ export default function Produtos() {
                 </div>
 
                 <div className={styles.card}>
-                    <FontAwesomeIcon icon={faUser} className={styles.icone}/>
+                    <FaRegUser className={styles.icone}/>
                     <h5>Web Development</h5>
                     <div className={styles.descricao}>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -41,7 +39,7 @@ export default function Produtos() {
                 </div>
 
                 <div className={styles.card}>
-                    <FontAwesomeIcon icon={faBell} className={styles.icone}/>
+                    <FaRegBell className={styles.icone}/>
                     <h5>Web Development</h5>
                     <div className={styles.descricao}>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
