@@ -11,16 +11,16 @@ export default function Navbar() {
 
             <ul className={styles.lista}>
                 <li className={styles.item}>
-                    <Link to='/'>Home</Link>
+                    <Link to='barbearia-react//'>Home</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='sobre'>Sobre nós</Link>
+                    <Link to='barbearia-react/sobre'>Sobre nós</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='produtos'>Produtos</Link>
+                    <Link to='barbearia-react/produtos'>Produtos</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='/contato'>Contato</Link>
+                    <Link to='barbearia-react/contato'>Contato</Link>
                 </li>
             </ul>
             <a href="#" className={styles.botao__login}>Login</a>

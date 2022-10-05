@@ -11,10 +11,10 @@ export default function Header(){
         <Router>
             <Navbar />
             <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/sobre' element={<Sobre />} />
-                <Route path='/produtos' element={<Produtos />} />
-                <Route path='/contato' element={<Contato />} />
+                <Route path='barbearia-react/' element={<Home />} />
+                <Route path='barbearia-react/sobre' element={<Sobre />} />
+                <Route path='barbearia-react/produtos' element={<Produtos />} />
+                <Route path='barbearia-react/contato' element={<Contato />} />
             </Routes>
         </Router>
         </header>
