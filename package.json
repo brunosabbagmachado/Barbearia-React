@@ -2,7 +2,7 @@
   "name": "36-barbearia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brunosabbagmachado.github.io/barbearia-react/",
+  "homepage": "https://brunosabbagmachado.github.io/barbearia-react",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
