@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/barbearia-react/static/css/main.bb6430ba.css",
+    "main.js": "/barbearia-react/static/js/main.b3da846f.js",
+    "static/media/hero-banner.jpg": "/barbearia-react/static/media/hero-banner.0e114403f9b5757e546a.jpg",
+    "static/media/gallery-4.jpg": "/barbearia-react/static/media/gallery-4.f1ecedf9d6dcb8d50447.jpg",
+    "index.html": "/barbearia-react/index.html",
+    "main.bb6430ba.css.map": "/barbearia-react/static/css/main.bb6430ba.css.map",
+    "main.b3da846f.js.map": "/barbearia-react/static/js/main.b3da846f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6430ba.css",
+    "static/js/main.b3da846f.js"
+  ]
+}
