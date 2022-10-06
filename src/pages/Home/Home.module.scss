@@ -1,0 +1,42 @@
+@import '../../styles/variaveis';
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../public/assets/imgs/hero-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.conteudo h1 {
+    color: $branco;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+.conteudo h1 span {
+    color: $elementos-dourados;
+}
+
+
+.conteudo h3{
+    color: $branco;
+    font-size: 25px;
+}
+
+.conteudo h4 {
+    color: $branco;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+span {
+    color: $branco;
+}
