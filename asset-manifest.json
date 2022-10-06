@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barbearia-react/static/css/main.99b60dd5.css",
-    "main.js": "/barbearia-react/static/js/main.72b5c569.js",
+    "main.js": "/barbearia-react/static/js/main.9c369b25.js",
     "static/media/hero-banner.jpg": "/barbearia-react/static/media/hero-banner.0e114403f9b5757e546a.jpg",
     "static/media/gallery-4.jpg": "/barbearia-react/static/media/gallery-4.f1ecedf9d6dcb8d50447.jpg",
     "index.html": "/barbearia-react/index.html",
     "main.99b60dd5.css.map": "/barbearia-react/static/css/main.99b60dd5.css.map",
-    "main.72b5c569.js.map": "/barbearia-react/static/js/main.72b5c569.js.map"
+    "main.9c369b25.js.map": "/barbearia-react/static/js/main.9c369b25.js.map"
   },
   "entrypoints": [
     "static/css/main.99b60dd5.css",
-    "static/js/main.72b5c569.js"
+    "static/js/main.9c369b25.js"
   ]
 }
