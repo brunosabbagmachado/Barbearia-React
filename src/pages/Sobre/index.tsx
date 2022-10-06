@@ -18,7 +18,7 @@ export default function Sobre() {
                     <button
                         className={styles.botao}
                         type='button'>
-                        <Link to='../produtos'>Produtos</Link>
+                        <Link to='/barbearia-react/produtos'>Produtos</Link>
                     </button>
 
                 </div>
