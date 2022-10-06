@@ -5,22 +5,22 @@ import styles from './Navbar.module.scss';
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <Link to='/home'>
+            <Link to='/barbearia-react/'>
                 <h2 className={styles.logo}>Barber<span>React</span></h2>
             </Link>
 
             <ul className={styles.lista}>
                 <li className={styles.item}>
-                    <Link to='/home'>Home</Link>
+                    <Link to='/barbearia-react/'>Home</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='/sobre'>Sobre nós</Link>
+                    <Link to='/barbearia-react/sobre'>Sobre nós</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='/produtos'>Produtos</Link>
+                    <Link to='/barbearia-react/produtos'>Produtos</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to='/contato'>Contato</Link>
+                    <Link to='/barbearia-react/contato'>Contato</Link>
                 </li>
             </ul>
             <a href="#" className={styles.botao__login}>Login</a>
